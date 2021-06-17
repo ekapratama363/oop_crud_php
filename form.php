@@ -77,7 +77,7 @@ if(!empty($_POST)) {
                     <button type="submit">Simpan</button>
                 </td>
                 <td>
-                    <a href="tampil_data.php">Kembali</a>
+                    <a href="index.php">Kembali</a>
                 </td>
             </tr>
         </table>
