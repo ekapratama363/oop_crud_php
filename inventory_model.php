@@ -5,9 +5,9 @@ class inventory_model{
  
     var $koneksi;
     var $host = "localhost";
-    var $username = "ekapratama";
-    var $password = "11140435";
-    var $database = "cashier";
+    var $username = "";
+    var $password = "";
+    var $database = "";
 
     public function __construct(){
 		$this->koneksi = mysqli_connect($this->host, $this->username, $this->password,$this->database);
